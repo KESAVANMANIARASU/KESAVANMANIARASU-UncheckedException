@@ -1,3 +1,8 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.text.ParseException;
+
+import javax.imageio.IIOException;
 
 public class Lab {
     /**
@@ -12,7 +17,7 @@ public class Lab {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException(){
-
+    public void throwUncheckedException() {
+        throw new ArithmeticException();
     }
 }
